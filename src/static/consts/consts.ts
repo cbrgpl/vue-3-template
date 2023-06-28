@@ -1,0 +1,17 @@
+export const STORAGE_NAMES = {
+} as const
+
+export const OPERATION_STATUS = {
+  SUCCESS: 'SUCCESS__',
+  ERROR: 'ERROR__',
+  NOT_FOUND: 'NOT_FOUND__',
+  UNHANDLED: 'UNHANDLED__',
+  UNSUPPORTED: 'UNSUPPORTED__',
+  UNEXPECTED: 'UNEXPECTED__',
+} as const
+
+export const CONSOLE_COLORS = {
+  LOG_ACCENT_COLOR: '#5f5fc4',
+  LOG_ERROR_COLOR: '#DB5461',
+  LOG_SAFETY_COLOR: '#10b348',
+} as const
